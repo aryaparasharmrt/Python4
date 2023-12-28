@@ -20,7 +20,7 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "Github Actions"
         git fetch
-        git checkout main
+        git checkout branch1
 
         # Create an empty commit to establish a common ancestor
         git commit --allow-empty -m "Create empty commit for merge"
