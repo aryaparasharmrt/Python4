@@ -22,4 +22,4 @@ jobs:
         run: pip install -r requirements.txt  # Replace with your requirements file
 
       - name: Run pull request checks
-        run: my.py  # Replace with your Python script for PR checks
+        run: pyhton my.py  # Replace with your Python script for PR checks
