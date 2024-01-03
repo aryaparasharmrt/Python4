@@ -7,7 +7,7 @@ on:
 
 jobs: 
  thank_you_bot:
-  runs-on: ububtu-latest
+  runs-on: ubuntu-latest
 
   steps:
    - name: Check out repository
